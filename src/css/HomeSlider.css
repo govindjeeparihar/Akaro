@@ -1,0 +1,163 @@
+.HomeSlider,
+.SliderItem{
+    position: relative;
+}
+
+
+
+.sliderInner{
+    position: relative;
+    background: url('../images/Slider1.jpg') no-repeat center;
+    padding:100px 80px;
+     z-index: 9;
+}
+ 
+
+.sliderInner h2{
+    font-size: 102px;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+}
+
+.sliderInner h4{
+    font-size: 46px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sliderInner p{
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.sliderInner a.rm{
+    color: #fff;
+    padding: 18px 40px;
+    border: 2px solid #ff5a00;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+}
+
+ 
+.sliderInner .rm:hover{
+    background:  #ff5a00 !important;
+}
+
+.HomeSlider .slick-arrow{
+    position: absolute;
+    top:50%;
+    left:30px;
+    right: auto;
+    z-index: 99;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background: #ff4800;
+    border: none;
+    transform: translate(0%, -50%);
+    font-size: 0;
+}
+
+.HomeSlider .slick-arrow:after{
+    content: "\f104";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+.HomeSlider .slick-arrow.slick-next{
+    right:30px;
+    left: auto;
+    transform: translate(0%, -50%);
+}
+
+.HomeSlider .slick-arrow.slick-next:after{
+    content: "\f105";
+     
+}
+
+.HomeSlider .slick-dots{
+    list-style: none;
+    display: flex !important;
+    position: absolute;
+    z-index: 999;
+    justify-content:center;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+}
+
+.HomeSlider .slick-dots li button{
+    border: none;
+    color: #fff;
+    background: #ff5a00;
+    font-size: 12px;
+    line-height: 1;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.HomeSlider .slick-dots li.slick-active button{
+    background: #fff;
+    color: #ff5a00;
+}
+
+@media (max-width:991px){
+    .sliderInner h2 {
+        font-size:80px;
+    }
+
+    
+}
+
+@media (max-width:767px){
+    .sliderInner {
+        padding:80px 60px;
+         
+    }
+    .sliderInner h2 {
+        font-size:60px;
+    }
+
+    .sliderInner h4 {
+        font-size:30px;
+    }
+    .sliderInner p{
+        font-size:14px;
+        line-height: 1.2;
+    }
+
+    .sliderInner a.rm {
+        padding: 12px 20px;
+    }
+
+    .HomeSlider .slick-arrow {
+        left:15px;
+    }
+
+    .HomeSlider .slick-arrow.slick-next {
+        right: 15px;
+    }
+
+}
+
+
+@media (max-width:575px){
+    .sliderInner h2 {
+        font-size:40px;
+    }
+
+    .sliderInner h4 {
+        font-size:20px;
+    }
+}

@@ -1,0 +1,55 @@
+.header-top{
+    background: #ff4800;
+    color: #fff;
+}
+
+.donate-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.donate-btn a {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-decoration: navajowhite;
+    background: #262222;
+}
+
+.header-email-phone ul{
+    list-style: none;
+    margin: 0;
+    padding:13px 0;
+    display: flex;
+}
+
+.header-email-phone ul li,
+.header-email-phone ul li a{
+    font-size: 13px;
+    color:#fff;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+header .tagline{
+    margin: 0;
+    font-size: 13px;
+    font-weight:normal;
+}
+
+
+@media (max-width:991px){
+    .header-email-phone ul,
+    .donate-btn {
+      justify-content: center;
+    }
+}
+
+
+@media (max-width:767px){
+   .header-email-phone{
+       display: none;
+   }
+}

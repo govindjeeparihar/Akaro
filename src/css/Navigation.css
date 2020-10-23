@@ -1,0 +1,151 @@
+.navbar {
+ padding: 0;
+}
+.navbar-expand-lg {
+    justify-content: flex-end;
+}
+.navbar-expand-lg .navbar-nav .nav-item{
+    padding: 0 16px;
+}
+.navbar-expand-lg .navbar-nav > .nav-item > .nav-link {
+    padding:30px 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #262626;
+    text-decoration: none;
+    transition: color .35s;
+    border-bottom:5px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav > .nav-item > .nav-link:hover{
+    border-bottom: 5px solid #ff5a00;
+    color: #ff5a00;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.dropdown {
+    padding-right: 25px;
+}
+
+.ddwn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top:35px;
+    cursor: pointer;
+}
+
+.ddwn:after{
+    content: " ";
+    border-top: 5px solid #262626;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.dropdown-menu.DropOpen{
+    display: block;
+}
+
+.MenuTrigger{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 24px;
+    height: 22px;
+    margin: 0 auto;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.MenuTrigger span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #262626;
+    border-radius: 10px;
+    opacity: 1;
+    left: 0;
+    transition: .25s ease-in-out;
+}
+
+.MenuTrigger span:nth-child(1) {
+    top: 2px;
+}
+
+.MenuTrigger span:nth-child(2), 
+.MenuTrigger span:nth-child(3) {
+    top: 10px;
+}
+
+.MenuTrigger span:nth-child(4) {
+    top: 18px;
+}
+
+
+.MenuOpen .MenuTrigger span:nth-child(1) {
+    top: 18px;
+    width: 0;
+    left: 50%;
+}
+
+.MenuOpen .MenuTrigger span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.MenuOpen .MenuTrigger span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.MenuOpen .MenuTrigger span:nth-child(4) {
+    top: 18px;
+    width: 0;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    .navbar.navbar-expand-lg .navbar-nav{
+        position: fixed;
+        left:-100%;
+        top: 0;
+        z-index: 999;
+        background: white;
+        max-width: 320px;
+        width: 100%;
+        transition: .25s ease-in-out;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+
+    .navbar.navbar-expand-lg.MenuOpen .navbar-nav{
+        left: 0;
+    }
+
+    .ddwn{
+        right:16px;
+        top: 16px;
+    }
+
+    .navbar-expand-lg .navbar-nav > .nav-item > .nav-link {
+        padding: 15px 0;
+    }
+
+}
+
+
+
+@media (max-width:767px){
+    .MenuTrigger{
+        top: -50px; 
+    }
+    
+
+}
