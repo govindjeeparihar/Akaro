@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Akaro/static/css/main.16ada8d2.chunk.css",
+    "main.js": "/Akaro/static/js/main.764ad8b4.chunk.js",
+    "main.js.map": "/Akaro/static/js/main.764ad8b4.chunk.js.map",
+    "runtime-main.js": "/Akaro/static/js/runtime-main.58f5c572.js",
+    "runtime-main.js.map": "/Akaro/static/js/runtime-main.58f5c572.js.map",
+    "static/js/2.750488e1.chunk.js": "/Akaro/static/js/2.750488e1.chunk.js",
+    "static/js/2.750488e1.chunk.js.map": "/Akaro/static/js/2.750488e1.chunk.js.map",
+    "index.html": "/Akaro/index.html",
+    "precache-manifest.baf507e90507af7ca568b2cd6937c89d.js": "/Akaro/precache-manifest.baf507e90507af7ca568b2cd6937c89d.js",
+    "service-worker.js": "/Akaro/service-worker.js",
+    "static/css/main.16ada8d2.chunk.css.map": "/Akaro/static/css/main.16ada8d2.chunk.css.map",
+    "static/js/2.750488e1.chunk.js.LICENSE.txt": "/Akaro/static/js/2.750488e1.chunk.js.LICENSE.txt",
+    "static/media/HomeSlider.css": "/Akaro/static/media/Slider1.1637fe2e.jpg",
+    "static/media/about-bg.jpg": "/Akaro/static/media/about-bg.ed9ce907.jpg",
+    "static/media/contact-bg.jpg": "/Akaro/static/media/contact-bg.35434661.jpg",
+    "static/media/Footer.css": "/Akaro/static/media/foot-bg.a2d2c849.jpg",
+    "static/media/index.css": "/Akaro/static/media/welcome-bg.0a699008.jpg",
+    "static/media/welcome.jpg": "/Akaro/static/media/welcome.a1834b2e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58f5c572.js",
+    "static/js/2.750488e1.chunk.js",
+    "static/css/main.16ada8d2.chunk.css",
+    "static/js/main.764ad8b4.chunk.js"
+  ]
+}
